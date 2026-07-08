@@ -1,0 +1,13 @@
+# Blender MTL File: 'December2025_ToySoldier_Assets_Export.blend'
+# Material Count: 1
+
+newmtl toy_soldier
+Ns 562.500000
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.750000 0.750000 0.750000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2
+map_Kd toy_soldier_texture.png
