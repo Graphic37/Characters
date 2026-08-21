@@ -1,0 +1,15 @@
+# ⚠ THE BUILD IS NOT COMMITTED. dist/ is regenerable from src/ with
+#   python3 tools/build.py
+# and a committed build is a second copy of the game that silently goes stale
+# the moment src/ changes. Attach it to a Release instead — that is what
+# Releases are for, and it keeps it out of every future clone.
+dist/
+
+# one-shot patch scripts (p1..pN.py). Each was applied to src/ once and its
+# reasoning already lives in the comments it inserted. Keeping 154 of them
+# means every clone carries 669 KB of history that git already tracks.
+tools/p*.py
+
+node_modules/
+work.html
+*.log
